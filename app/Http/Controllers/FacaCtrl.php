@@ -13,6 +13,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 class FacaCtrl extends BaseController {
+    
     public function Command($brand) {
 
         $commande = Commande::Commander($brand);

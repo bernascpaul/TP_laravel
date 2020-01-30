@@ -31,3 +31,5 @@ Route::get('/observer', 'ObservCtrl@affichage');
 Route::get('/strategy', 'StrategyCtrl@affichage');
 
 Route::get('/command', 'Command@returnView');
+
+Route::get('/template', 'TempCtrl@affichage');
