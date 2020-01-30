@@ -7,7 +7,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
-class FacaCtrl extends BaseController {
+class Command extends BaseController {
     
     function returnView() {
         return view('command');
